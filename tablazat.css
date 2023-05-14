@@ -1,0 +1,23 @@
+table.tablazat {
+  border: 5px solid #2B5B74;
+  width: 70%;
+  height: 200%;
+  text-align: left;
+}
+table.tablazat td, table.tablazat th {
+  border: 2px solid #2B5B74;
+  padding: 3px 3px;
+}
+table.tablazat thead {
+  background: #2B5B74;
+}
+table.tablazat thead th {
+  font-size: 15px;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #D0E4F5;
+}
+table.tablazat thead th:first-child {
+  border-left: none;
+}
